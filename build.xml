@@ -1,0 +1,9 @@
+<project name="pidGenerator" basedir=".">
+
+
+    <property name="include.wars" value="true"/>
+
+    <property name="global.dir" value="${basedir}"/>
+    <import file="build/build-project.xml"/>
+
+</project>
