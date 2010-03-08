@@ -60,10 +60,11 @@
     </message>
 
     <portType name="PidGeneratorSoapWebservice">
-        <documentation>Tekstuel beskrivelse af service
+        <documentation>Java interface for generating persistent identifiers (PID)
         </documentation>
         <operation name="generatePid">
-            <documentation>Tekstuel beskrivelse af metoden "generatePid"
+            <documentation>
+                Generate PID
             </documentation>
             <input message="tns:pidGeneratorRequest"/>
             <output message="tns:pidGeneratorResponse"/>
@@ -73,7 +74,8 @@
                    name="CommunicationException"/>
         </operation>
         <operation name="generatePidWithInfix">
-            <documentation>Tekstuel beskrivelse af metoden "generatePid"
+            <documentation>
+                Takes a infix string as argument, generates PID
             </documentation>
             <input message="tns:pidGeneratorInfixRequest"/>
             <output message="tns:pidGeneratorInfixResponse"/>
