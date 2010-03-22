@@ -39,15 +39,10 @@
                     schemaLocation="pidGenerator.xsd"/>
         </xsd:schema>
     </types>
-
-   <!-- <message name="FileNotAvailableException">
-        <part name="fault" element="tns:FileNotAvailableException"/>
-    </message>-->
     <message name="CommunicationException">
         <part name="fault" element="tns:CommunicationException"/>
     </message>
     <message name="pidGeneratorRequest">
-      <!-- <part name="pid" element="tns:pid"/>-->
     </message>
     <message name="pidGeneratorResponse">
         <part name="pidGeneratorReturn" element="tns:pidGeneratorResponse"/>
@@ -60,27 +55,23 @@
     </message>
 
     <portType name="PidGeneratorSoapWebservice">
-        <documentation>Java interface for generating persistent identifiers (PID)
+        <documentation>Web service for generating persistent identifiers (PID)
         </documentation>
         <operation name="generatePid">
             <documentation>
-                Generate PID
+                Generate Persistent IDentifiers
             </documentation>
             <input message="tns:pidGeneratorRequest"/>
             <output message="tns:pidGeneratorResponse"/>
-            <!--<fault message="tns:FileNotAvailableException"
-                   name="FileNotAvailableException"/>-->
             <fault message="tns:CommunicationException"
                    name="CommunicationException"/>
         </operation>
         <operation name="generatePidWithInfix">
             <documentation>
-                Takes a infix string as argument, generates PID
+                Takes a infix string as argument, generates Persistent IDentifiers
             </documentation>
             <input message="tns:pidGeneratorInfixRequest"/>
             <output message="tns:pidGeneratorInfixResponse"/>
-            <!--<fault message="tns:FileNotAvailableException"
-                   name="FileNotAvailableException"/>-->
             <fault message="tns:CommunicationException"
                    name="CommunicationException"/>
         </operation>
@@ -97,9 +88,6 @@
             <output>
                 <soap:body use="literal"/>
             </output>
-<!--            <fault name="FileNotAvailableException">
-                <soap:fault name="FileNotAvailableException" use="literal"/>
-            </fault>-->
             <fault name="CommunicationException">
                 <soap:fault name="CommunicationException" use="literal"/>
             </fault>
@@ -112,9 +100,6 @@
             <output>
                 <soap:body use="literal"/>
             </output>
-<!--            <fault name="FileNotAvailableException">
-                <soap:fault name="FileNotAvailableException" use="literal"/>
-            </fault>-->
             <fault name="CommunicationException">
                 <soap:fault name="CommunicationException" use="literal"/>
             </fault>
@@ -125,7 +110,7 @@
               binding="tns:PidGeneratorSoapWebservicePortBinding">
 
             <soap:address
-                    location="http://localhost:7910/highlevelbitstorage/highlevel/"/>
+                    location="http://localhost:7910/pidgenerator/"/>
         </port>
     </service>
 </definitions>

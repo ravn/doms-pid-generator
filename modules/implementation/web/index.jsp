@@ -1,8 +1,8 @@
 <%--
-  ~ $Id: index.jsp 175 2010-01-28 09:26:52Z kchristiansen $
-  ~ $Revision: 175 $
-  ~ $Date: 2010-01-28 10:26:52 +0100 (Thu, 28 Jan 2010) $
-  ~ $Author: kchristiansen $
+  ~ $Id$
+  ~ $Revision$
+  ~ $Date$
+  ~ $Author$
   ~
   ~ The DOMS project.
   ~ Copyright (C) 2007-2010  The State and University Library

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-  ~ $Id: web.xml 188 2010-01-29 15:57:17Z blekinge $
-  ~ $Revision: 188 $
-  ~ $Date: 2010-01-29 16:57:17 +0100 (Fri, 29 Jan 2010) $
-  ~ $Author: blekinge $
+  ~ $Id$
+  ~ $Revision$
+  ~ $Date$
+  ~ $Author$
   ~
   ~ The DOMS project.
   ~ Copyright (C) 2007-2010  The State and University Library
@@ -44,15 +44,6 @@
         </listener-class>
     </listener>
 
-
- <!--   <context-param>
-        <param-name>dk.statsbiblioteket.doms.bitstorage.lowlevel.location
-        </param-name>
-        <param-value>http://localhost:8080/lowlevelbitstorage/lowlevel/?wsdl
-        </param-value>
-    </context-param>-->
-
-
     <servlet>
         <description>JAX-WS endpoint</description>
         <display-name>WSServlet</display-name>
@@ -63,44 +54,5 @@
     <servlet-mapping>
         <servlet-name>WSServlet</servlet-name>
         <url-pattern>/pidGenerator/*</url-pattern>
-    </servlet-mapping>
-
-
-
-
-    <!--Below here is the surveilance-->
-
-<!--    <servlet>
-        <servlet-name>Lowlevel Bitstorage Log Surveillance</servlet-name>
-        <servlet-class>com.sun.jersey.spi.container.servlet.ServletContainer
-        </servlet-class>
-        <init-param>
-            <param-name>com.sun.jersey.config.property.packages</param-name>
-            <param-value>dk.statsbiblioteket.doms.surveillance.rest
-            </param-value>
-        </init-param>
-
-
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>Lowlevel Bitstorage Log Surveillance</servlet-name>
-        <url-pattern>/lowlevelbitstoragelogsurveillanceservice/*</url-pattern>
-    </servlet-mapping>
-
-    <servlet>
-        <servlet-name>Lowlevel Bitstorage Real Time Surveillance</servlet-name>
-        <servlet-class>com.sun.jersey.spi.container.servlet.ServletContainer
-        </servlet-class>
-        <init-param>
-            <param-name>com.sun.jersey.config.property.packages</param-name>
-            <param-value>dk.statsbiblioteket.doms.bitstorage.lowlevel.surveillance
-            </param-value>
-        </init-param>
-
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>Lowlevel Bitstorage Real Time Surveillance</servlet-name>
-        <url-pattern>/lowlevelbitstoragerealtimesurveillanceservice/*</url-pattern>
-    </servlet-mapping>-->
-    
+    </servlet-mapping>    
 </web-app>

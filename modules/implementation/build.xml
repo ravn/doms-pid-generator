@@ -1,8 +1,8 @@
 <!--
-  ~ $Id: build.xml 304 2010-03-03 14:55:00Z kchristiansen $
-  ~ $Revision: 304 $
-  ~ $Date: 2010-03-03 15:55:00 +0100 (Wed, 03 Mar 2010) $
-  ~ $Author: kchristiansen $
+  ~ $Id$
+  ~ $Revision$
+  ~ $Date$
+  ~ $Author$
   ~
   ~ The DOMS project.
   ~ Copyright (C) 2007-2010  The State and University Library
@@ -49,11 +49,8 @@
     <!--Project libs used by this module-->
     <dirset id="project.libs" dir="${global.dir}/lib/">
         <include name="${domsutil.lib}"/>
-        <!--<include name="${sbutils.lib}"/>-->
-        <!--<include name="${surveillance.lib}"/>-->
+        <include name="${sbutils.lib}"/>
         <include name="${jaxws-ri.lib}"/>
-        <!--<include name="${jersey.lib}"/>
-        <include name="${jsr311-api.lib}"/>     -->
        <include name="${log4j.lib}"/>
         <include name="${commons-logging.lib}"/>
     </dirset>
