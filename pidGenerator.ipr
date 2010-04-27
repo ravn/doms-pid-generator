@@ -345,6 +345,17 @@
     <option name="ADDITIONAL_OPTIONS_STRING" value="" />
   </component>
   <component name="SvnBranchConfigurationManager">
+    <option name="myConfigurationMap">
+      <map>
+        <entry key="$PROJECT_DIR$">
+          <value>
+            <SvnBranchConfiguration>
+              <option name="trunkUrl" value="https://doms.svn.sourceforge.net/svnroot/doms/pidGenerator/trunk" />
+            </SvnBranchConfiguration>
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="mySupportsUserInfoFilter" value="true" />
   </component>
   <component name="VcsDirectoryMappings">
@@ -377,15 +388,19 @@
       <JAVADOC />
       <SOURCES />
     </library>
-    <library name="domsutil-0.0.2#SNAPSHOT">
+    <library name="domsutil-0.0.3">
       <CLASSES>
-        <root url="jar://$PROJECT_DIR$/lib/domsutil-0.0.2#SNAPSHOT/jars/webservice-common.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/domsutil-0.0.3/jars/webservice-common.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/domsutil-0.0.3/jars/surveyable_impl.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/domsutil-0.0.3/jars/surveyable_interface.jar!/" />
       </CLASSES>
       <JAVADOC>
-        <root url="jar://$PROJECT_DIR$/lib/domsutil-0.0.2#SNAPSHOT/apidocs/webservice-common-apidocs.zip!/" />
+        <root url="jar://$PROJECT_DIR$/lib/domsutil-0.0.3/apidocs/domsutil-0.0.3-doc.zip!/domsutil-0.0.3" />
       </JAVADOC>
       <SOURCES>
-        <root url="jar://$PROJECT_DIR$/lib/domsutil-0.0.2#SNAPSHOT/src/domsutil-0.0.2#SNAPSHOT-src.zip!/domsutil-0.0.2#SNAPSHOT/modules/webservice-common/src" />
+        <root url="jar://$PROJECT_DIR$/lib/domsutil-0.0.3/src/domsutil-0.0.3-src.zip!/domsutil-0.0.3/modules/surveyable/surveyable_interface/src" />
+        <root url="jar://$PROJECT_DIR$/lib/domsutil-0.0.3/src/domsutil-0.0.3-src.zip!/domsutil-0.0.3/modules/surveyable/surveyable_impl/src" />
+        <root url="jar://$PROJECT_DIR$/lib/domsutil-0.0.3/src/domsutil-0.0.3-src.zip!/domsutil-0.0.3/modules/webservice-common/src" />
       </SOURCES>
     </library>
     <library name="sbutils-0.4.8">
