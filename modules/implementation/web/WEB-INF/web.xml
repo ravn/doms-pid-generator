@@ -44,6 +44,17 @@
         </listener-class>
     </listener>
 
+    <context-param>
+        <description>The class that will be exposed for surveillance
+        </description>
+        <param-name>
+            dk.statsbiblioteket.doms.domsutil.surveyable.surveyables
+        </param-name>
+        <param-value>
+            dk.statsbiblioteket.doms.pidgenerator.PidGeneratorSurveyable
+        </param-value>
+    </context-param>
+
     <servlet>
         <description>JAX-WS endpoint</description>
         <display-name>WSServlet</display-name>
