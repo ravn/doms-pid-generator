@@ -33,7 +33,7 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="jaxws-ri-2.1.7" level="project" />
-    <orderEntry type="library" name="domsutil-0.0.8" level="project" />
+    <orderEntry type="library" name="domsutil" level="project" />
     <orderEntry type="module" module-name="WSDL_interface" />
     <orderEntry type="module-library">
       <library>
