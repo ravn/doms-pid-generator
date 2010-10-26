@@ -44,7 +44,7 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="library" name="sbutils-0.4.8" level="project" />
+    <orderEntry type="library" name="sbutil-0.5.2" level="project" />
     <orderEntry type="library" name="commons-logging-1.1.1" level="project" />
   </component>
 </module>
