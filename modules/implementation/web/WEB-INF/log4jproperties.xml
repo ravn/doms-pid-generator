@@ -70,7 +70,7 @@
     </appender>
 
 
-    <logger name="dk.statsbiblioteket.doms.central">
+    <logger name="dk.statsbiblioteket.doms.pidgenerator">
         <level value="ALL"/>
         <appender-ref ref="DomsPidGeneratorRegistry"/>
         <appender-ref ref="DomsPidGeneratorFile"/>
