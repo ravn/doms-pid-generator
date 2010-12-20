@@ -43,7 +43,7 @@ import dk.statsbiblioteket.util.qa.QAInfo;
         reviewers = "jrg")
 public class PidGeneratorSurveyable implements Surveyable {
     /** The name this status reports. */
-    private static final String SURVEYABLE_NAME = "PidGenerator";
+    private static final String SURVEYABLE_NAME = "DomsPidGenerator";
 
     /** Log for this class. */
     private final Log log = LogFactory.getLog(getClass());
