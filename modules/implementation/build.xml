@@ -25,7 +25,7 @@
   ~ under the License.
   -->
 
-<project name="implementation" basedir=".">
+<project name="pidgenerator_implementation" basedir=".">
 
 
     <property name="global.dir" value="${basedir}/../.."/>

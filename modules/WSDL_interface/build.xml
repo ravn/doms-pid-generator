@@ -25,7 +25,7 @@
   ~ under the License.
   -->
 
-<project name="WSDL_interface" basedir=".">
+<project name="pidgenerator_interface" basedir=".">
 
     <property name="global.dir" value="${basedir}/../.."/>
     <property file="${global.dir}/build.properties"/>
