@@ -95,7 +95,7 @@
             <element id="module-output" name="pidgenerator_service" />
           </element>
           <element id="directory" name="lib">
-            <element id="archive" name="pidgenerator_interface-0.0.6#SNAPSHOT.jar">
+            <element id="archive" name="pidgenerator-interface-0.0.6#SNAPSHOT.jar">
               <element id="module-output" name="pidgenerator_interface" />
             </element>
             <element id="library" level="project" name="Maven: dk.statsbiblioteket.sbutil:sbutil:0.5.2" />
@@ -648,6 +648,19 @@
       </JAVADOC>
       <SOURCES>
         <root url="jar://$MAVEN_REPOSITORY$/dk/statsbiblioteket/doms/domsutil/domsutil-webservice-common/0.0.17/domsutil-webservice-common-0.0.17-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: dk.statsbiblioteket.doms.pidgenerator:pidgenerator_interface:0.0.6#SNAPSHOT">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/dk/statsbiblioteket/doms/pidgenerator/pidgenerator_interface/0.0.6#SNAPSHOT/pidgenerator_interface-0.0.6#SNAPSHOT.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$PROJECT_DIR$/modules/pidgenerator_interface/pom-javadoc.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/dk/statsbiblioteket/doms/pidgenerator/pidgenerator_interface/0.0.6#SNAPSHOT/pidgenerator_interface-0.0.6#SNAPSHOT-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/modules/pidgenerator_interface/pom-sources.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/dk/statsbiblioteket/doms/pidgenerator/pidgenerator_interface/0.0.6#SNAPSHOT/pidgenerator_interface-0.0.6#SNAPSHOT-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: dk.statsbiblioteket.sbutil:sbutil:0.5.2">

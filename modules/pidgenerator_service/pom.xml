@@ -85,7 +85,7 @@
     <dependencies>
         <dependency>
             <groupId>${groupId}</groupId>
-            <artifactId>pidgenerator_interface</artifactId>
+            <artifactId>pidgenerator-interface</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
