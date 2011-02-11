@@ -42,7 +42,7 @@
 
 
 
-    <artifactId>pidgenerator_interface</artifactId>
+    <artifactId>pidgenerator-interface</artifactId>
     <name>Pidgenerator webservice interface</name>
 
     <build>
@@ -56,11 +56,9 @@
                             <goal>wsimport</goal>
                         </goals>
                         <configuration>
-                            <wsdlDirectory>${basedir}/data/wsdl</wsdlDirectory>
                             <packageName>${groupId}</packageName>
-                            <sourceDestDir>tempsrc</sourceDestDir>
+                            <wsdlDirectory>src/main/resources/wsdl</wsdlDirectory>
                             <verbose>true</verbose>
-                            <xdebug>true</xdebug>
                         </configuration>
                     </execution>
                 </executions>
@@ -69,5 +67,5 @@
     </build>
 
 
-    
+
 </project>

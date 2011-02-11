@@ -38,7 +38,7 @@
     </parent>
 
 
-    <artifactId>pidgenerator_impl</artifactId>
+    <artifactId>pidgenerator-service</artifactId>
     <packaging>war</packaging>
     <name>Pidgenerator Webservice Implementation</name>
     <!--    <version>0.0.6#SNAPSHOT</version>-->
@@ -53,27 +53,45 @@
                 <configuration>
                     <webResources>
                         <resource>
-                            <directory>${basedir}/web/WEB-INF</directory>
+                            <directory>${project.build.directory}/wsdl</directory>
                             <targetPath>WEB-INF</targetPath>
                         </resource>
                     </webResources>
 
                 </configuration>
             </plugin>
+
+            <plugin>
+                <artifactId>maven-dependency-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <id>Extract wsdl files</id>
+                        <goals>
+                            <goal>unpack-dependencies</goal>
+                        </goals>
+                        <phase>generate-sources</phase>
+                        <configuration>
+                            <includeGroupIds>dk.statsbiblioteket.doms.domsutil,dk.statsbiblioteket.doms.pidgenerator</includeGroupIds>
+                            <includeArtifactIds>domsutil-surveyable_interface,pidgenerator_interface</includeArtifactIds>
+                            <includes>wsdl/*</includes>
+                            <outputDirectory>${project.build.directory}/wsdl</outputDirectory>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
         </plugins>
     </build>
 
     <dependencies>
         <dependency>
-            <groupId>dk.statsbiblioteket.doms.pidgenerator</groupId>
+            <groupId>${groupId}</groupId>
             <artifactId>pidgenerator_interface</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
             <groupId>dk.statsbiblioteket.doms.domsutil</groupId>
-            <artifactId>bundle</artifactId>
-<version>0.0.17</version>
-<type>pom</type>
+            <artifactId>domsutil-bundle</artifactId>
+            <type>pom</type>
         </dependency>
         <dependency>
             <groupId>com.sun.xml.ws</groupId>
