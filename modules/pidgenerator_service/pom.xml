@@ -34,7 +34,7 @@
     <parent>
         <groupId>dk.statsbiblioteket.doms.pidgenerator</groupId>
         <artifactId>pidgenerator</artifactId>
-        <version>0.0.6#SNAPSHOT</version>
+        <version>0.0.6-SNAPSHOT</version>
     </parent>
 
 
@@ -72,7 +72,7 @@
                         <phase>generate-sources</phase>
                         <configuration>
                             <includeGroupIds>dk.statsbiblioteket.doms.domsutil,dk.statsbiblioteket.doms.pidgenerator</includeGroupIds>
-                            <includeArtifactIds>domsutil-surveyable_interface,pidgenerator_interface</includeArtifactIds>
+                            <includeArtifactIds>domsutil-surveyable_interface,pidgenerator-interface</includeArtifactIds>
                             <includes>wsdl/*</includes>
                             <outputDirectory>${project.build.directory}/wsdl</outputDirectory>
                         </configuration>
