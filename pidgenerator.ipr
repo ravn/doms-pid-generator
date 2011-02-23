@@ -3,12 +3,12 @@
   <component name="ArtifactManager">
     <artifact type="war" name="pidgenerator-service:war">
       <output-path>$PROJECT_DIR$/modules/pidgenerator_service/target</output-path>
-      <root id="archive" name="pidgenerator-service-0.0.7.war">
+      <root id="archive" name="pidgenerator-service-0.0.7-SNAPSHOT.war">
         <element id="artifact" artifact-name="pidgenerator-service:war exploded" />
       </root>
     </artifact>
     <artifact type="exploded-war" name="pidgenerator-service:war exploded">
-      <output-path>$PROJECT_DIR$/modules/pidgenerator_service/target/pidgenerator-service-0.0.7</output-path>
+      <output-path>$PROJECT_DIR$/modules/pidgenerator_service/target/pidgenerator-service-0.0.7-SNAPSHOT</output-path>
       <root id="root">
         <element id="javaee-facet-resources" facet="pidgenerator-service/web/Web" />
         <element id="directory" name="WEB-INF">
@@ -16,7 +16,7 @@
             <element id="module-output" name="pidgenerator-service" />
           </element>
           <element id="directory" name="lib">
-            <element id="archive" name="pidgenerator-interface-0.0.7.jar">
+            <element id="archive" name="pidgenerator-interface-0.0.7-SNAPSHOT.jar">
               <element id="module-output" name="pidgenerator-interface" />
             </element>
             <element id="library" level="project" name="Maven: dk.statsbiblioteket.sbutil:sbutil:0.5.2" />
@@ -256,6 +256,37 @@
     <output url="file://$PROJECT_DIR$/classes" />
   </component>
   <component name="SvnBranchConfigurationManager">
+    <option name="myConfigurationMap">
+      <map>
+        <entry key="$PROJECT_DIR$">
+          <value>
+            <SvnBranchConfiguration>
+              <option name="branchMap">
+                <map>
+                  <entry key="https://doms.svn.sourceforge.net/svnroot/doms/pidGenerator/branches">
+                    <value>
+                      <list />
+                    </value>
+                  </entry>
+                  <entry key="https://doms.svn.sourceforge.net/svnroot/doms/pidGenerator/tags">
+                    <value>
+                      <list />
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="branchUrls">
+                <list>
+                  <option value="https://doms.svn.sourceforge.net/svnroot/doms/pidGenerator/branches" />
+                  <option value="https://doms.svn.sourceforge.net/svnroot/doms/pidGenerator/tags" />
+                </list>
+              </option>
+              <option name="trunkUrl" value="https://doms.svn.sourceforge.net/svnroot/doms/pidGenerator/trunk" />
+            </SvnBranchConfiguration>
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="mySupportsUserInfoFilter" value="true" />
   </component>
   <component name="VcsDirectoryMappings">
