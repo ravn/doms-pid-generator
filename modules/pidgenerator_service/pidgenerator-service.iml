@@ -21,7 +21,7 @@
       <sourceFolder url="file://$MODULE_DIR$/target/generated-sources/annotations" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/target/classes" />
       <excludeFolder url="file://$MODULE_DIR$/target/dependency-maven-plugin-markers" />
-      <excludeFolder url="file://$MODULE_DIR$/target/pidgenerator-service-0.0.6-SNAPSHOT" />
+      <excludeFolder url="file://$MODULE_DIR$/target/pidgenerator-service-0.0.7" />
       <excludeFolder url="file://$MODULE_DIR$/target/wsdl" />
     </content>
     <orderEntry type="inheritedJdk" />
