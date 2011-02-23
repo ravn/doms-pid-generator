@@ -36,7 +36,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>dk.statsbiblioteket.doms.pidgenerator</groupId>
     <artifactId>pidgenerator</artifactId>
-    <version>0.0.7</version>
+    <version>0.0.8-SNAPSHOT</version>
     <name>Pidgenerator Project</name>
 
 
@@ -69,11 +69,4 @@
 
         </dependencies>
     </dependencyManagement>
-
-
-  <scm>
-    <connection>scm:svn:https://doms.svn.sourceforge.net/svnroot/doms/doms/tags/release-0.0.7</connection>
-    <developerConnection>scm:svn:https://doms.svn.sourceforge.net/svnroot/doms/doms/tags/release-0.0.7</developerConnection>
-    <url>http://doms.svn.sourceforge.net/viewvc/doms/doms/tags/release-0.0.7</url>
-  </scm>
 </project>
