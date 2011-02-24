@@ -36,16 +36,16 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>dk.statsbiblioteket.doms.pidgenerator</groupId>
     <artifactId>pidgenerator</artifactId>
-    <version>0.0.8</version>
+    <version>0.0.9-SNAPSHOT</version>
     <name>Pidgenerator Project</name>
 
 
     <packaging>pom</packaging>
 
     <scm>
-        <connection>scm:svn:https://doms.svn.sourceforge.net/svnroot/doms/pidGenerator/tags/pidgenerator-0.0.8</connection>
-        <developerConnection>scm:svn:https://doms.svn.sourceforge.net/svnroot/doms/pidGenerator/tags/pidgenerator-0.0.8</developerConnection>
-        <url>http://doms.svn.sourceforge.net/viewvc/doms/pidGenerator/tags/pidgenerator-0.0.8</url>
+        <connection>scm:svn:https://doms.svn.sourceforge.net/svnroot/doms/pidGenerator/trunk</connection>
+        <developerConnection>scm:svn:https://doms.svn.sourceforge.net/svnroot/doms/pidGenerator/trunk</developerConnection>
+        <url>http://doms.svn.sourceforge.net/viewvc/doms/pidGenerator/trunk</url>
     </scm>
 
 
