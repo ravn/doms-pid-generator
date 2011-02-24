@@ -36,16 +36,16 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>dk.statsbiblioteket.doms.pidgenerator</groupId>
     <artifactId>pidgenerator</artifactId>
-    <version>0.0.8-SNAPSHOT</version>
+    <version>0.0.8</version>
     <name>Pidgenerator Project</name>
 
 
     <packaging>pom</packaging>
 
     <scm>
-        <connection>scm:svn:https://doms.svn.sourceforge.net/svnroot/doms/pidGenerator/trunk</connection>
-        <developerConnection>scm:svn:https://doms.svn.sourceforge.net/svnroot/doms/pidGenerator/trunk</developerConnection>
-        <url>http://doms.svn.sourceforge.net/viewvc/doms/pidGenerator/trunk</url>
+        <connection>scm:svn:https://doms.svn.sourceforge.net/svnroot/doms/pidGenerator/tags/pidgenerator-0.0.8</connection>
+        <developerConnection>scm:svn:https://doms.svn.sourceforge.net/svnroot/doms/pidGenerator/tags/pidgenerator-0.0.8</developerConnection>
+        <url>http://doms.svn.sourceforge.net/viewvc/doms/pidGenerator/tags/pidgenerator-0.0.8</url>
     </scm>
 
 
@@ -66,7 +66,7 @@
             <dependency>
                 <groupId>com.sun.xml.ws</groupId>
                 <artifactId>jaxws-rt</artifactId>
-                <version>2.2.1</version>
+                <version>2.1.7</version>
             </dependency>
             <dependency>
                 <groupId>log4j</groupId>
