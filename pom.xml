@@ -25,7 +25,7 @@
   ~ under the License.
   -->
 
-<project>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <parent>
         <groupId>dk.statsbiblioteket.doms</groupId>
         <artifactId>doms</artifactId>
@@ -36,11 +36,18 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>dk.statsbiblioteket.doms.pidgenerator</groupId>
     <artifactId>pidgenerator</artifactId>
-    <version>0.0.7-SNAPSHOT</version>
+    <version>0.0.8</version>
     <name>Pidgenerator Project</name>
 
 
     <packaging>pom</packaging>
+
+    <scm>
+        <connection>scm:svn:https://doms.svn.sourceforge.net/svnroot/doms/pidGenerator/tags/pidgenerator-0.0.8</connection>
+        <developerConnection>scm:svn:https://doms.svn.sourceforge.net/svnroot/doms/pidGenerator/tags/pidgenerator-0.0.8</developerConnection>
+        <url>http://doms.svn.sourceforge.net/viewvc/doms/pidGenerator/tags/pidgenerator-0.0.8</url>
+    </scm>
+
 
 
     <modules>
@@ -59,7 +66,7 @@
             <dependency>
                 <groupId>com.sun.xml.ws</groupId>
                 <artifactId>jaxws-rt</artifactId>
-                <version>2.2.1</version>
+                <version>2.1.7</version>
             </dependency>
             <dependency>
                 <groupId>log4j</groupId>
@@ -69,5 +76,4 @@
 
         </dependencies>
     </dependencyManagement>
-
 </project>
