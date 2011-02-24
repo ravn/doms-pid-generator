@@ -42,6 +42,13 @@
 
     <packaging>pom</packaging>
 
+    <scm>
+        <connection>scm:svn:https://doms.svn.sourceforge.net/svnroot/doms/pidGenerator/trunk</connection>
+        <developerConnection>scm:svn:https://doms.svn.sourceforge.net/svnroot/doms/pidGenerator/trunk</developerConnection>
+        <url>http://doms.svn.sourceforge.net/viewvc/doms/pidGenerator/trunk</url>
+    </scm>
+
+
 
     <modules>
         <module>modules/pidgenerator_service</module>
