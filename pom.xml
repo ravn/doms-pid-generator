@@ -51,8 +51,8 @@
 
 
     <modules>
-        <module>modules/pidgenerator_service</module>
-        <module>modules/pidgenerator_interface</module>
+        <module>pidgenerator_service</module>
+        <module>pidgenerator_interface</module>
     </modules>
 
     <dependencyManagement>
