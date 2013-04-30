@@ -44,9 +44,29 @@
         </listener-class>
     </listener>
 
+
+    <servlet>
+        <servlet-name>JAX-RS endpoint</servlet-name>
+        <servlet-class>com.sun.jersey.spi.container.servlet.ServletContainer
+        </servlet-class>
+        <init-param>
+            <param-name>com.sun.jersey.config.properties.packages</param-name>
+            <param-value>dk.statsbiblioteket.doms.pidgenerator</param-value>
+        </init-param>
+        <init-param>
+            <param-name>com.sun.jersey.api.json.POJOMappingFeature</param-name>
+            <param-value>true</param-value>
+        </init-param>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>JAX-RS endpoint</servlet-name>
+        <url-pattern>/rest/*</url-pattern>
+    </servlet-mapping>
+
+
+
     <servlet>
         <description>JAX-WS endpoint</description>
-        <display-name>WSServlet</display-name>
         <servlet-name>WSServlet</servlet-name>
         <servlet-class>com.sun.xml.ws.transport.http.servlet.WSServlet</servlet-class>
         <load-on-startup>1</load-on-startup>
@@ -57,10 +77,8 @@
     </servlet-mapping>
 
 
-<!--This is the surveyable servlet, the one that initialialises the surveyable classes-->
+    <!--This is the surveyable servlet, the one that initialialises the surveyable classes-->
     <servlet>
-        <description>JAX-WS endpoint</description>
-        <display-name>WSServletSurveyable</display-name>
         <servlet-name>WSServletSurveyable</servlet-name>
         <servlet-class>com.sun.xml.ws.transport.http.servlet.WSServlet
         </servlet-class>
@@ -83,19 +101,19 @@
     </context-param>
 
     <context-param>
-           <description>The name of the service for surveillance purposes
-           </description>
-           <param-name>
-                   dk.statsbiblioteket.doms.surveillance.logappender.LoggerName
-           </param-name>
-           <param-value>
-               DomsPidGenerator
-           </param-value>
-       </context-param>
+        <description>The name of the service for surveillance purposes
+        </description>
+        <param-name>
+            dk.statsbiblioteket.doms.surveillance.logappender.LoggerName
+        </param-name>
+        <param-value>
+            DomsPidGenerator
+        </param-value>
+    </context-param>
 
 
 
-<!--This servlet is used only to load on startup, and configure the logging framework.-->
+    <!--This servlet is used only to load on startup, and configure the logging framework.-->
     <servlet>
         <description>The servlet that is loaded on startup, and initializes the logging system</description>
         <servlet-name>Log4jInitialisation</servlet-name>
@@ -111,6 +129,10 @@
         </init-param>
         <load-on-startup>1</load-on-startup>
     </servlet>
+    <servlet-mapping>
+        <servlet-name>Log4jInitialisation</servlet-name>
+        <url-pattern>/log4jGoAway</url-pattern>
+    </servlet-mapping>
     <context-param>
         <description>The location of the log4j config file</description>
         <param-name>dk.statsbiblioteket.doms.pidgenerator.log4jconfig</param-name>

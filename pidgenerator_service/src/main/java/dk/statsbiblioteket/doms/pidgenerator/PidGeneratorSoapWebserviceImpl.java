@@ -34,6 +34,12 @@ import org.apache.commons.logging.LogFactory;
 import javax.jws.WebMethod;
 import javax.jws.WebParam;
 import javax.jws.WebService;
+import javax.ws.rs.GET;
+import javax.ws.rs.Path;
+import javax.ws.rs.PathParam;
+import javax.ws.rs.Produces;
+import javax.ws.rs.core.MediaType;
+import java.awt.*;
 import java.util.UUID;
 
 
@@ -45,6 +51,7 @@ import java.util.UUID;
 @QAInfo(author = "eab", reviewers = "kfc", level = QAInfo.Level.NORMAL,
         state = QAInfo.State.QA_OK)   
 @WebService(endpointInterface = "dk.statsbiblioteket.doms.pidgenerator.PidGeneratorSoapWebservice")
+@Path("/pids")
 public class PidGeneratorSoapWebserviceImpl implements
         PidGeneratorSoapWebservice {
     /**
@@ -63,6 +70,9 @@ public class PidGeneratorSoapWebserviceImpl implements
      * @throws CommunicationException when pid generation fails.
      */
     @WebMethod
+    @GET
+    @Path("/generatePid")
+    @Produces(MediaType.TEXT_PLAIN)
     public String generatePid() throws CommunicationException {
         log.trace("Enter generatePid()");
         try {
@@ -84,10 +94,15 @@ public class PidGeneratorSoapWebserviceImpl implements
      * @throws CommunicationException when pid generation fails.
      */
     @WebMethod
+    @GET
+    @Path("/generatePid/{infix}")
+    @Produces(MediaType.TEXT_PLAIN)
     public String generatePidWithInfix(
             @WebParam(name = "pidGeneratorInfixRequest",
                     targetNamespace = "http://pidgenerator.doms.statsbiblioteket.dk/",
-                    partName = "infix") String infix) throws CommunicationException {
+                    partName = "infix")
+            @PathParam("infix")
+            String infix) throws CommunicationException {
         log.trace("Enter generatePid('" + infix + "')");
         return generatePid();
     }
