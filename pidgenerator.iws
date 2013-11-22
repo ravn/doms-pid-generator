@@ -2,20 +2,97 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e0e620ef-2cb4-40ea-a4d3-7a5ed3292890" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pidgenerator_service/src/main/java/dk/statsbiblioteket/doms/pidgenerator/PidGeneratorSoapWebserviceImpl.java" afterPath="$PROJECT_DIR$/pidgenerator_service/src/main/java/dk/statsbiblioteket/doms/pidgenerator/PidGeneratorSoapWebserviceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pidgenerator_interface/pidgenerator-interface.iml" afterPath="$PROJECT_DIR$/pidgenerator_interface/pidgenerator-interface.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pidgenerator_service/pidgenerator-service.iml" afterPath="$PROJECT_DIR$/pidgenerator_service/pidgenerator-service.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pidgenerator.ipr" afterPath="$PROJECT_DIR$/pidgenerator.ipr" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pidgenerator.iws" afterPath="$PROJECT_DIR$/pidgenerator.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pidgenerator_service/pom.xml" afterPath="$PROJECT_DIR$/pidgenerator_service/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pidgenerator_service/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/pidgenerator_service/src/main/webapp/WEB-INF/web.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pidgenerator.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pidgenerator.ipr" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pidgenerator.iws" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pidgenerator_interface/pidgenerator-interface.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pidgenerator_service/pidgenerator-service.iml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="pidgenerator.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="e0e620ef-2cb4-40ea-a4d3-7a5ed3292890" time="1367319751774" ignored="false" />
-    <file path="/pom.xml" changelist="e0e620ef-2cb4-40ea-a4d3-7a5ed3292890" time="1367320909184" ignored="false" />
+    <file path="/Dummy.txt" changelist="e0e620ef-2cb4-40ea-a4d3-7a5ed3292890" time="1385127578089" ignored="false" />
+    <file path="/pom.xml" changelist="e0e620ef-2cb4-40ea-a4d3-7a5ed3292890" time="1385127528776" ignored="false" />
     <file path="/PidGeneratorSoapWebserviceImpl.java" changelist="e0e620ef-2cb4-40ea-a4d3-7a5ed3292890" time="1367319430815" ignored="false" />
     <file path="/web.xml" changelist="e0e620ef-2cb4-40ea-a4d3-7a5ed3292890" time="1367321456234" ignored="false" />
+    <file path="$PROJECT_DIR$/../doms-server/ecmTemplates/src/main/java/dk/statsbiblioteket/doms/central/connectors/fedora/pidGenerator/PidGeneratorImpl.java" changelist="e0e620ef-2cb4-40ea-a4d3-7a5ed3292890" time="1367322931287" ignored="false" />
+    <file path="/PidGeneratorImpl.java" changelist="e0e620ef-2cb4-40ea-a4d3-7a5ed3292890" time="1367322017874" ignored="false" />
+    <file path="$PROJECT_DIR$/../doms-server/centralWebservice-service/src/main/webapp/WEB-INF/web.xml" changelist="e0e620ef-2cb4-40ea-a4d3-7a5ed3292890" time="1367322072673" ignored="false" />
+    <file path="$PROJECT_DIR$/../doms-server/central-fedoraClient/pom.xml" changelist="e0e620ef-2cb4-40ea-a4d3-7a5ed3292890" time="1367322110563" ignored="false" />
+    <file path="$PROJECT_DIR$/../doms-server/centralWebservice-interface/pom.xml" changelist="e0e620ef-2cb4-40ea-a4d3-7a5ed3292890" time="1367322110563" ignored="false" />
+    <file path="$PROJECT_DIR$/../doms-server/centralWebservice-lib/pom.xml" changelist="e0e620ef-2cb4-40ea-a4d3-7a5ed3292890" time="1367322110564" ignored="false" />
+    <file path="$PROJECT_DIR$/../doms-server/centralWebservice-service/pom.xml" changelist="e0e620ef-2cb4-40ea-a4d3-7a5ed3292890" time="1367322110564" ignored="false" />
+    <file path="$PROJECT_DIR$/../doms-server/pom.xml" changelist="e0e620ef-2cb4-40ea-a4d3-7a5ed3292890" time="1367322110564" ignored="false" />
+    <file path="$PROJECT_DIR$/../doms-installer/src/main/scripts/package.sh" changelist="e0e620ef-2cb4-40ea-a4d3-7a5ed3292890" time="1367323328957" ignored="false" />
+    <file path="$PROJECT_DIR$/../doms-installer/src/main/resources/templates/logback.xml.template" changelist="e0e620ef-2cb4-40ea-a4d3-7a5ed3292890" time="1367323328957" ignored="false" />
+    <file path="$PROJECT_DIR$/../doms-installer/src/main/scripts/setenv.sh" changelist="e0e620ef-2cb4-40ea-a4d3-7a5ed3292890" time="1367323328957" ignored="false" />
+    <file path="$PROJECT_DIR$/../doms-installer/pom.xml" changelist="e0e620ef-2cb4-40ea-a4d3-7a5ed3292890" time="1371040983468" ignored="false" />
+    <file path="$PROJECT_DIR$/../doms-installer/src/main/resources/templates/context.xml.default.template" changelist="e0e620ef-2cb4-40ea-a4d3-7a5ed3292890" time="1367323328957" ignored="false" />
+    <file path="$PROJECT_DIR$/../doms-installer/src/main/resources/templates/fedora-users.xml.template" changelist="e0e620ef-2cb4-40ea-a4d3-7a5ed3292890" time="1367323328957" ignored="false" />
+    <file path="$PROJECT_DIR$/../doms-server/ecmMethods/target/generated-sources/xjc/dk/statsbiblioteket/doms/central/connectors/fedora/methods/generated/Method.java" changelist="e0e620ef-2cb4-40ea-a4d3-7a5ed3292890" time="1367322931287" ignored="false" />
+    <file path="$PROJECT_DIR$/../doms-server/ecmMethods/target/generated-sources/xjc/dk/statsbiblioteket/doms/central/connectors/fedora/methods/generated/Parameter.java" changelist="e0e620ef-2cb4-40ea-a4d3-7a5ed3292890" time="1367322931287" ignored="false" />
+    <file path="$PROJECT_DIR$/../doms-installer/src/main/resources/templates/akubra-llstore.xml.template" changelist="e0e620ef-2cb4-40ea-a4d3-7a5ed3292890" time="1367323328957" ignored="false" />
+    <file path="$PROJECT_DIR$/../doms-installer/src/main/scripts/install.sh" changelist="e0e620ef-2cb4-40ea-a4d3-7a5ed3292890" time="1367323328957" ignored="false" />
+    <file path="$PROJECT_DIR$/../doms-installer/src/main/resources/templates/fedora.fcfg.template" changelist="e0e620ef-2cb4-40ea-a4d3-7a5ed3292890" time="1367323328957" ignored="false" />
+    <file path="$PROJECT_DIR$/../doms-installer/src/main/resources/templates/ingest_config.sh.template" changelist="e0e620ef-2cb4-40ea-a4d3-7a5ed3292890" time="1367323328957" ignored="false" />
+    <file path="$PROJECT_DIR$/../doms-installer/src/main/resources/templates/log4j.surveillance-surveyor.xml.template" changelist="e0e620ef-2cb4-40ea-a4d3-7a5ed3292890" time="1367323328957" ignored="false" />
+    <file path="$PROJECT_DIR$/../doms-installer/src/main/resources/templates/log4j.surveillance-fedorasurveyor.xml.template" changelist="e0e620ef-2cb4-40ea-a4d3-7a5ed3292890" time="1367323328957" ignored="false" />
+    <file path="$PROJECT_DIR$/../doms-installer/src/main/resources/templates/fedoraWebXmlInsert.xml.template" changelist="e0e620ef-2cb4-40ea-a4d3-7a5ed3292890" time="1367323328957" ignored="false" />
+    <file path="$PROJECT_DIR$/../doms-installer/src/main/resources/templates/log4j.pidgenerator.xml.template" changelist="e0e620ef-2cb4-40ea-a4d3-7a5ed3292890" time="1367323328957" ignored="false" />
+    <file path="$PROJECT_DIR$/../doms-installer/src/main/resources/templates/web.xml.template" changelist="e0e620ef-2cb4-40ea-a4d3-7a5ed3292890" time="1367323328957" ignored="false" />
+    <file path="$PROJECT_DIR$/../doms-installer/src/main/resources/templates/log4j.centralDomsWebservice.xml.template" changelist="e0e620ef-2cb4-40ea-a4d3-7a5ed3292890" time="1367323328957" ignored="false" />
+    <file path="$PROJECT_DIR$/../doms-installer/src/main/resources/templates/server.xml.template" changelist="e0e620ef-2cb4-40ea-a4d3-7a5ed3292890" time="1367323328957" ignored="false" />
+    <file path="$PROJECT_DIR$/../doms-installer/src/main/resources/templates/schemaStore.xml.template" changelist="e0e620ef-2cb4-40ea-a4d3-7a5ed3292890" time="1367323328957" ignored="false" />
+    <file path="$PROJECT_DIR$/../doms-installer/src/main/resources/templates/log4j.authchecker.xml.template" changelist="e0e620ef-2cb4-40ea-a4d3-7a5ed3292890" time="1367323328957" ignored="false" />
+    <file path="$PROJECT_DIR$/../doms-installer/src/main/resources/templates/fedora.properties.template" changelist="e0e620ef-2cb4-40ea-a4d3-7a5ed3292890" time="1367323328957" ignored="false" />
+    <file path="$PROJECT_DIR$/../doms-ingesters/radio-tv/pom.xml" changelist="e0e620ef-2cb4-40ea-a4d3-7a5ed3292890" time="1367332234548" ignored="false" />
+    <file path="$PROJECT_DIR$/../doms-ingesters/pom.xml" changelist="e0e620ef-2cb4-40ea-a4d3-7a5ed3292890" time="1367327601414" ignored="false" />
+    <file path="$PROJECT_DIR$/../doms-ingesters/radio-tv/src/main/assembly/assembly.xml" changelist="e0e620ef-2cb4-40ea-a4d3-7a5ed3292890" time="1367324832373" ignored="false" />
+    <file path="$PROJECT_DIR$/../doms-ingesters/radio-tv/src/main/java/dk/statsbiblioteket/doms/ingesters/radiotv/RecordCreator.java" changelist="e0e620ef-2cb4-40ea-a4d3-7a5ed3292890" time="1367332234548" ignored="false" />
+    <file path="/RecordCreator.java" changelist="e0e620ef-2cb4-40ea-a4d3-7a5ed3292890" time="1367331731059" ignored="false" />
+    <file path="$PROJECT_DIR$/../doms-ingesters/radio-tv/src/main/java/dk/statsbiblioteket/doms/ingesters/radiotv/RadioTVMetadataProcessor.java" changelist="e0e620ef-2cb4-40ea-a4d3-7a5ed3292890" time="1367332234548" ignored="false" />
+    <file path="$PROJECT_DIR$/../doms-ingesters/radio-tv/src/test/java/dk/statsbiblioteket/doms/ingesters/radiotv/RecordCreatorTest.java" changelist="e0e620ef-2cb4-40ea-a4d3-7a5ed3292890" time="1367332212180" ignored="false" />
+    <file path="$PROJECT_DIR$/pidgenerator_interface/src/main/resources/wsdl/pidGenerator.xsd" changelist="e0e620ef-2cb4-40ea-a4d3-7a5ed3292890" time="1385127441207" ignored="false" />
+    <file path="$MAVEN_REPOSITORY$/dk/statsbiblioteket/doms/pidgenerator/pidgenerator-service/0.0.9-SNAPSHOT/pidgenerator-service-0.0.9-SNAPSHOT.war!/WEB-INF/wsdl/pidGenerator.wsdl" changelist="e0e620ef-2cb4-40ea-a4d3-7a5ed3292890" time="1371040866595" ignored="false" />
+    <file path="$MAVEN_REPOSITORY$/dk/statsbiblioteket/doms/pidgenerator/pidgenerator-service/0.0.9-SNAPSHOT/pidgenerator-service-0.0.9-SNAPSHOT.war!/WEB-INF/wsdl/pidGenerator.xsd" changelist="e0e620ef-2cb4-40ea-a4d3-7a5ed3292890" time="1371040866595" ignored="false" />
+    <file path="$PROJECT_DIR$/../mulgara/src/jar/store-stringpool-xa11/java/org/mulgara/store/stringpool/xa11/XA11StringPoolImpl.java" changelist="e0e620ef-2cb4-40ea-a4d3-7a5ed3292890" time="1371044061337" ignored="false" />
+    <file path="$PROJECT_DIR$/../xmlTapesForFedora/src/main/config/akubra-llstore.xml" changelist="e0e620ef-2cb4-40ea-a4d3-7a5ed3292890" time="1371048758746" ignored="false" />
+    <file path="/akubra-llstore.xml" changelist="e0e620ef-2cb4-40ea-a4d3-7a5ed3292890" time="1371048733617" ignored="false" />
+    <file path="$USER_HOME$/Downloads/mulgara-2.1.12/src/jar/util/java/org/mulgara/util/io/LMappedBufferedFile.java" changelist="e0e620ef-2cb4-40ea-a4d3-7a5ed3292890" time="1371115298163" ignored="false" />
+    <file path="/LMappedBufferedFile.java" changelist="e0e620ef-2cb4-40ea-a4d3-7a5ed3292890" time="1371115297768" ignored="false" />
+    <file path="$USER_HOME$/Downloads/mulgara-2.1.12/src/jar/util/java/org/mulgara/util/io/LBufferedFile.java" changelist="e0e620ef-2cb4-40ea-a4d3-7a5ed3292890" time="1371115023157" ignored="false" />
+    <file path="/LBufferedFile.java" changelist="e0e620ef-2cb4-40ea-a4d3-7a5ed3292890" time="1371115022723" ignored="false" />
+    <file path="/LMappedBufferedFileRO.java" changelist="e0e620ef-2cb4-40ea-a4d3-7a5ed3292890" time="1371115207267" ignored="false" />
+    <file path="$USER_HOME$/Downloads/mulgara-2.1.12/src/jar/util/java/org/mulgara/util/io/LMappedBufferedFileRO.java" changelist="e0e620ef-2cb4-40ea-a4d3-7a5ed3292890" time="1371115207732" ignored="false" />
+    <file path="$USER_HOME$/Downloads/mulgara-2.1.12/src/jar/util/java/org/mulgara/util/io/LMappedBufferedFileRW.java" changelist="e0e620ef-2cb4-40ea-a4d3-7a5ed3292890" time="1371115234009" ignored="false" />
+    <file path="/LMappedBufferedFileRW.java" changelist="e0e620ef-2cb4-40ea-a4d3-7a5ed3292890" time="1371115233587" ignored="false" />
+    <file path="$USER_HOME$/Downloads/mulgara-2.1.12/src/jar/util/java/org/mulgara/util/io/LIOBufferedFile.java" changelist="e0e620ef-2cb4-40ea-a4d3-7a5ed3292890" time="1371115150945" ignored="false" />
+    <file path="/LIOBufferedFile.java" changelist="e0e620ef-2cb4-40ea-a4d3-7a5ed3292890" time="1371115150523" ignored="false" />
+    <file path="$USER_HOME$/Downloads/mulgara-2.1.12/src/jar/util/java/org/mulgara/util/io/LReadOnlyIOBufferedFile.java" changelist="e0e620ef-2cb4-40ea-a4d3-7a5ed3292890" time="1371115177267" ignored="false" />
+    <file path="/LReadOnlyIOBufferedFile.java" changelist="e0e620ef-2cb4-40ea-a4d3-7a5ed3292890" time="1371115176831" ignored="false" />
+    <file path="$USER_HOME$/Downloads/mulgara-2.1.12/pageSize_for_memory_mapping_is_long,_to_prevent_int_wraparound_problems_with_large_files.patch" changelist="e0e620ef-2cb4-40ea-a4d3-7a5ed3292890" time="1371115636780" ignored="false" />
+    <file path="$PROJECT_DIR$/../doms-auth-checker/authchecker-service/src/main/webapp/WEB-INF/log4jproperties.xml" changelist="e0e620ef-2cb4-40ea-a4d3-7a5ed3292890" time="1371117945486" ignored="false" />
+    <file path="$PROJECT_DIR$/../doms-auth-checker/authchecker-service/src/main/resources/log4jproperties.xml" changelist="e0e620ef-2cb4-40ea-a4d3-7a5ed3292890" time="1371117945486" ignored="false" />
+    <file path="$PROJECT_DIR$/../doms-auth-checker/authchecker-service/src/main/webapp/WEB-INF/web.xml" changelist="e0e620ef-2cb4-40ea-a4d3-7a5ed3292890" time="1371117945486" ignored="false" />
+    <file path="$PROJECT_DIR$/../doms-auth-checker/authchecker-authutils/pom.xml" changelist="e0e620ef-2cb4-40ea-a4d3-7a5ed3292890" time="1371117945487" ignored="false" />
+    <file path="$PROJECT_DIR$/../doms-auth-checker/authchecker-fedoralogin/pom.xml" changelist="e0e620ef-2cb4-40ea-a4d3-7a5ed3292890" time="1371117945487" ignored="false" />
+    <file path="$PROJECT_DIR$/../doms-auth-checker/authchecker-service/pom.xml" changelist="e0e620ef-2cb4-40ea-a4d3-7a5ed3292890" time="1371118470863" ignored="false" />
+    <file path="$PROJECT_DIR$/../doms-auth-checker/authchecker-lib/pom.xml" changelist="e0e620ef-2cb4-40ea-a4d3-7a5ed3292890" time="1371117945487" ignored="false" />
+    <file path="$PROJECT_DIR$/../doms-auth-checker/pom.xml" changelist="e0e620ef-2cb4-40ea-a4d3-7a5ed3292890" time="1371117945487" ignored="false" />
+    <file path="$PROJECT_DIR$/../doms-auth-checker/authchecker-authutils/src/main/java/dk/statsbiblioteket/doms/authchecker/user/schema1.xsd" changelist="e0e620ef-2cb4-40ea-a4d3-7a5ed3292890" time="1371117945487" ignored="false" />
+    <file path="$PROJECT_DIR$/../doms-auth-checker/authchecker-fedoralogin/src/main/java/dk/statsbiblioteket/doms/authchecker/UserDBClient.java" changelist="e0e620ef-2cb4-40ea-a4d3-7a5ed3292890" time="1371118470863" ignored="false" />
+    <file path="/UserDBClient.java" changelist="e0e620ef-2cb4-40ea-a4d3-7a5ed3292890" time="1371118327241" ignored="false" />
+    <file path="$PROJECT_DIR$/../doms-auth-checker/authchecker-authutils/src/main/java/dk/statsbiblioteket/doms/authchecker/user/User.java" changelist="e0e620ef-2cb4-40ea-a4d3-7a5ed3292890" time="1371118470863" ignored="false" />
+    <file path="$PROJECT_DIR$/../doms-auth-checker/authchecker-authutils/src/main/java/dk/statsbiblioteket/doms/authchecker/exceptions/BackendException.java" changelist="e0e620ef-2cb4-40ea-a4d3-7a5ed3292890" time="1371118470863" ignored="false" />
+    <file path="$PROJECT_DIR$/../doms-auth-checker/authchecker-authutils/src/main/java/dk/statsbiblioteket/doms/authchecker/exceptions/InvalidCredentialsException.java" changelist="e0e620ef-2cb4-40ea-a4d3-7a5ed3292890" time="1371118470863" ignored="false" />
+    <file path="$PROJECT_DIR$/../doms-auth-checker/authchecker-authutils/src/main/java/dk/statsbiblioteket/doms/authchecker/user/Roles.java" changelist="e0e620ef-2cb4-40ea-a4d3-7a5ed3292890" time="1371118470863" ignored="false" />
+    <file path="$PROJECT_DIR$/../doms-auth-checker/authchecker-fedoralogin/src/main/java/dk/statsbiblioteket/doms/authchecker/TempDatabaseModule.java" changelist="e0e620ef-2cb4-40ea-a4d3-7a5ed3292890" time="1371118470863" ignored="false" />
+    <file path="$PROJECT_DIR$/../doms-auth-checker/authchecker-service/src/main/java/dk/statsbiblioteket/doms/authchecker/Authchecker.java" changelist="e0e620ef-2cb4-40ea-a4d3-7a5ed3292890" time="1371118472643" ignored="false" />
+    <file path="$PROJECT_DIR$/../doms-auth-checker/authchecker-service/src/main/java/dk/statsbiblioteket/doms/authchecker/TicketIssuer.java" changelist="e0e620ef-2cb4-40ea-a4d3-7a5ed3292890" time="1371118472643" ignored="false" />
+    <file path="/fragment.java" changelist="e0e620ef-2cb4-40ea-a4d3-7a5ed3292890" time="1371118584154" ignored="false" />
+    <file path="$PROJECT_DIR$/pidgenerator_service/src/main/webapp/WEB-INF/log4jproperties.xml" changelist="e0e620ef-2cb4-40ea-a4d3-7a5ed3292890" time="1385127441207" ignored="false" />
+    <file path="/.gitignore" changelist="e0e620ef-2cb4-40ea-a4d3-7a5ed3292890" time="1385127563628" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +107,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -66,8 +144,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <line_breakpoints>
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint url="file://$PROJECT_DIR$/pidgenerator_service/src/main/java/dk/statsbiblioteket/doms/pidgenerator/PidGeneratorSoapWebserviceImpl.java" line="29" class="PidGeneratorSoapWebserviceImpl.java" package="">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
@@ -96,7 +173,16 @@
       <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="35" selection-start="1319" selection-end="1319" vertical-scroll-proportion="0.0">
+            <state line="38" column="25" selection-start="1488" selection-end="1488" vertical-scroll-proportion="-8.75">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="0" selection-start="26" selection-end="26" vertical-scroll-proportion="0.14251782">
               <folding />
             </state>
           </provider>
@@ -106,9 +192,7 @@
         <entry file="file://$PROJECT_DIR$/pidgenerator_service/src/main/java/dk/statsbiblioteket/doms/pidgenerator/PidGeneratorSoapWebserviceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="53" column="12" selection-start="1801" selection-end="1801" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -125,14 +209,19 @@
       <file leaf-file-name="pidGenerator.wsdl" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pidgenerator_interface/src/main/resources/wsdl/pidGenerator.wsdl">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="35.625">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="web.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="web.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pidgenerator_service/src/main/webapp/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="61" column="33" selection-start="2305" selection-end="2305" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
           <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
             <state />
           </provider>
@@ -142,8 +231,12 @@
           <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
             <state />
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sun-jaxws.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pidgenerator_service/src/main/webapp/WEB-INF/sun-jaxws.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="62" column="26" selection-start="2351" selection-end="2351" vertical-scroll-proportion="1.0502794">
+            <state line="38" column="38" selection-start="1712" selection-end="1724" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -152,7 +245,7 @@
       <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pidgenerator_service/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="103" column="38" selection-start="3955" selection-end="3955" vertical-scroll-proportion="-13.833333">
+            <state line="103" column="38" selection-start="3955" selection-end="3955" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -178,10 +271,12 @@
       <list>
         <option value="$PROJECT_DIR$/modules/pidgenerator_service/pom.xml" />
         <option value="$PROJECT_DIR$/modules/pidgenerator_interface/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/pidgenerator_service/pom.xml" />
-        <option value="$PROJECT_DIR$/pidgenerator_service/src/main/java/dk/statsbiblioteket/doms/pidgenerator/PidGeneratorSoapWebserviceImpl.java" />
         <option value="$PROJECT_DIR$/pidgenerator_service/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/pidgenerator_service/src/main/java/dk/statsbiblioteket/doms/pidgenerator/PidGeneratorSoapWebserviceImpl.java" />
+        <option value="$PROJECT_DIR$/pidgenerator_service/src/main/webapp/WEB-INF/sun-jaxws.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -249,10 +344,10 @@
     <option name="LAST_EDITED_TAB_NAME" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="65" />
-    <option name="y" value="24" />
-    <option name="width" value="1535" />
-    <option name="height" value="876" />
+    <option name="x" value="59" />
+    <option name="y" value="3" />
+    <option name="width" value="1547" />
+    <option name="height" value="903" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -282,8 +377,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -326,148 +419,47 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="pidgenerator_service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pidgenerator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="doms-pid-generator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pidgenerator_service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pidgenerator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="doms-pid-generator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pidgenerator_service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pidgenerator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pidgenerator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="doms-pid-generator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="pidgenerator_interface" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pidgenerator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="doms-pid-generator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pidgenerator_interface" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wsdl" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="Favorites" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="project.structure.proportion" value="0.15" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="160" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="162" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="options.lastSelected" value="preferences.pluginManager" />
     <property name="MemberChooser.sorted" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="160" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="165" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="959" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="959" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="165" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="162" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="options.lastSelected" value="preferences.pluginManager" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="options.searchVisible" value="true" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
@@ -596,7 +588,7 @@
     <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
     <option name="FORCE_UPDATE" value="false" />
     <option name="IGNORE_EXTERNALS" value="false" />
-    <configuration useDefault="true">$USER_HOME$/.subversion</configuration>
+    <configuration useDefault="true">$USER_HOME$/.subversion_IDEA</configuration>
     <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
   </component>
   <component name="TaskManager">
@@ -605,10 +597,15 @@
       <created>1298460589237</created>
       <updated>1298460589237</updated>
     </task>
+    <task id="LOCAL-00001" summary="Added a rest endpoint along with the soap">
+      <created>1367321542213</created>
+      <updated>1367321542213</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="24" width="1535" height="876" extended-state="6" />
+    <frame x="59" y="3" width="1547" height="903" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -617,20 +614,24 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32806325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run with VisualVM" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33939394" sideWeight="0.6711052" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3391538" sideWeight="0.67193675" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31447813" sideWeight="0.6711052" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3288948" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug with VisualVM" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="JSON Formatter" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31363332" sideWeight="0.67193675" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32674572" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="LuaJ" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="SVN Repositories" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32912722" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -706,6 +707,50 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pidgenerator_service/src/main/java/dk/statsbiblioteket/doms/pidgenerator/PidGeneratorSoapWebserviceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="12" selection-start="1801" selection-end="1801" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/dk/statsbiblioteket/doms/domsutil/surveyable/domsutil-surveyable-impl/0.0.20/domsutil-surveyable-impl-0.0.20-sources.jar!/dk/statsbiblioteket/doms/domsutil/surveyable/SurveyableWebservice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="13" selection-start="1567" selection-end="1567" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pidgenerator_interface/src/main/resources/wsdl/pidGenerator.wsdl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pidgenerator_service/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="62" column="26" selection-start="2351" selection-end="2351" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pidgenerator_service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="103" column="38" selection-start="3955" selection-end="3955" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -716,9 +761,7 @@
     <entry file="file://$PROJECT_DIR$/pidgenerator_service/src/main/java/dk/statsbiblioteket/doms/pidgenerator/PidGeneratorSoapWebserviceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="55" column="48" selection-start="1872" selection-end="1872" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -729,23 +772,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="35" selection-start="1319" selection-end="1319" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pidgenerator_interface/src/main/resources/wsdl/pidGenerator.wsdl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="35.625">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pidgenerator_service/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="103" column="38" selection-start="3955" selection-end="3955" vertical-scroll-proportion="-13.833333">
+        <state line="103" column="38" selection-start="3955" selection-end="3955" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -760,13 +796,16 @@
     <entry file="file://$PROJECT_DIR$/pidgenerator_service/src/main/java/dk/statsbiblioteket/doms/pidgenerator/PidGeneratorSoapWebserviceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="53" column="12" selection-start="1801" selection-end="1801" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pidgenerator_service/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="33" selection-start="2305" selection-end="2305" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
       <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
         <state />
       </provider>
@@ -776,8 +815,24 @@
       <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pidgenerator_service/src/main/webapp/WEB-INF/sun-jaxws.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="26" selection-start="2351" selection-end="2351" vertical-scroll-proportion="1.0502794">
+        <state line="38" column="38" selection-start="1712" selection-end="1724" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="25" selection-start="1488" selection-end="1488" vertical-scroll-proportion="-8.75">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="26" selection-end="26" vertical-scroll-proportion="0.14251782">
           <folding />
         </state>
       </provider>
