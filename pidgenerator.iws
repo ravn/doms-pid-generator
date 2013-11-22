@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e0e620ef-2cb4-40ea-a4d3-7a5ed3292890" name="Default" comment="Updated version and parent version">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pidgenerator.ipr" afterPath="" />
+    <list default="true" id="e0e620ef-2cb4-40ea-a4d3-7a5ed3292890" name="Default" comment="">
       <change type="DELETED" beforePath="$PROJECT_DIR$/pidgenerator.iws" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="pidgenerator.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="e0e620ef-2cb4-40ea-a4d3-7a5ed3292890" time="1385127679694" ignored="false" />
+    <file path="/Dummy.txt" changelist="e0e620ef-2cb4-40ea-a4d3-7a5ed3292890" time="1385127834366" ignored="false" />
     <file path="/pom.xml" changelist="e0e620ef-2cb4-40ea-a4d3-7a5ed3292890" time="1385127528776" ignored="false" />
     <file path="/PidGeneratorSoapWebserviceImpl.java" changelist="e0e620ef-2cb4-40ea-a4d3-7a5ed3292890" time="1367319430815" ignored="false" />
     <file path="/web.xml" changelist="e0e620ef-2cb4-40ea-a4d3-7a5ed3292890" time="1367321456234" ignored="false" />
@@ -89,6 +87,7 @@
     <file path="/fragment.java" changelist="e0e620ef-2cb4-40ea-a4d3-7a5ed3292890" time="1371118584154" ignored="false" />
     <file path="$PROJECT_DIR$/pidgenerator_service/src/main/webapp/WEB-INF/log4jproperties.xml" changelist="e0e620ef-2cb4-40ea-a4d3-7a5ed3292890" time="1385127441207" ignored="false" />
     <file path="/.gitignore" changelist="e0e620ef-2cb4-40ea-a4d3-7a5ed3292890" time="1385127563628" ignored="false" />
+    <file path="/CHANGELOG.txt" changelist="e0e620ef-2cb4-40ea-a4d3-7a5ed3292890" time="1385127801489" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,10 +174,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="21" selection-start="26" selection-end="26" vertical-scroll-proportion="0.14319809">
+            <state line="4" column="34" selection-start="26" selection-end="26" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CHANGELOG.txt" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CHANGELOG.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="44" selection-start="234" selection-end="234" vertical-scroll-proportion="0.3013393">
               <folding />
             </state>
           </provider>
@@ -273,6 +281,7 @@
         <option value="$PROJECT_DIR$/pidgenerator_service/src/main/webapp/WEB-INF/sun-jaxws.xml" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/CHANGELOG.txt" />
       </list>
     </option>
   </component>
@@ -605,7 +614,15 @@
       <created>1385127630075</created>
       <updated>1385127630075</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Reverted version&#10;Deleted idea files">
+      <created>1385127700684</created>
+      <updated>1385127700684</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Added changelog">
+      <created>1385127837389</created>
+      <updated>1385127837389</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -632,7 +649,7 @@
       <window_info id="Run with VisualVM" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3391538" sideWeight="0.67107004" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3391538" sideWeight="0.67107004" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="JSON Formatter" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Debug with VisualVM" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -688,7 +705,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated version and parent version" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added changelog" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -704,6 +721,8 @@
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="Gitignore" />
     <MESSAGE value="Updated version and parent version" />
+    <MESSAGE value="Reverted version&#10;Deleted idea files" />
+    <MESSAGE value="Added changelog" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -713,20 +732,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pidgenerator_service/src/main/java/dk/statsbiblioteket/doms/pidgenerator/PidGeneratorSoapWebserviceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="12" selection-start="1801" selection-end="1801" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/dk/statsbiblioteket/doms/domsutil/surveyable/domsutil-surveyable-impl/0.0.20/domsutil-surveyable-impl-0.0.20-sources.jar!/dk/statsbiblioteket/doms/domsutil/surveyable/SurveyableWebservice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="13" selection-start="1567" selection-end="1567" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pidgenerator_interface/src/main/resources/wsdl/pidGenerator.wsdl">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -838,7 +843,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="21" selection-start="26" selection-end="26" vertical-scroll-proportion="0.14319809">
+        <state line="4" column="34" selection-start="26" selection-end="26" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CHANGELOG.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="44" selection-start="234" selection-end="234" vertical-scroll-proportion="0.3013393">
           <folding />
         </state>
       </provider>
