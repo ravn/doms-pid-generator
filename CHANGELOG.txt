@@ -1,0 +1,54 @@
+1.0
+Added a rest endpoint along with the soap
+
+
+
+Old stuff:
+
+8cfbb95	2/14/11 2:15 PM	Asger Askov Blekinge	Better jaxws version
+d95fbcf	2/11/11 2:52 PM	Asger Askov Blekinge	Updated pidgenerator
+5201548	2/11/11 11:53 AM	Asger Askov Blekinge	Updated pidgenerator
+7d73aa4	2/10/11 7:09 PM	Asger Askov Blekinge	fixed the pom
+3836a82	2/10/11 5:50 PM	Asger Askov Blekinge	Almost complete mavenification. Testbed builds, but does not work yet, but I dare not risk to have so many changes on my own disc, so now they are committed
+44a5514	1/28/11 1:29 PM	Asger Askov Blekinge	removing old versions
+fe2f3cc	1/28/11 1:24 PM	Asger Askov Blekinge	Upgrading domsutil to version 0.0.17 in all projects
+eef80c2	1/14/11 6:35 PM	Asger Askov Blekinge	Cutting new version
+dd9b7f6	1/14/11 6:31 PM	Asger Askov Blekinge	better names
+b2406d2	1/14/11 5:10 PM	Asger Askov Blekinge	Cleaning up unnessesary libs from domsutil
+40c1ee1	1/14/11 2:15 PM	Asger Askov Blekinge	Cutting new version
+130daf0	1/14/11 1:52 PM	Asger Askov Blekinge	Updating domsutils to newest version
+05ced4f	1/14/11 1:27 PM	Asger Askov Blekinge	new buildframeworkd distributed
+e2a6ecb	1/14/11 1:12 PM	Asger Askov Blekinge	new buildframeworkd distributed
+90838d0	1/14/11 1:01 PM	Asger Askov Blekinge	new buildframeworkd distributed
+94bd24d	1/14/11 12:56 PM	Asger Askov Blekinge	new buildframeworkd distributed
+ed0a37d	1/13/11 6:38 PM	Asger Askov Blekinge	Updating build framework
+4379168	1/13/11 3:29 PM	Asger Askov Blekinge	Cutting new release
+f7d52ef	12/21/10 10:58 AM	Asger Askov Blekinge	Updated to use the standard surveillance impl
+9621c58	12/20/10 5:41 PM	Asger Askov Blekinge	a fix for last commit
+7b11d39	12/20/10 5:38 PM	Asger Askov Blekinge	Updating domsutil version once again
+745df2e	12/20/10 3:51 PM	Asger Askov Blekinge	new version of domsutils
+799f235	12/20/10 3:07 PM	Asger Askov Blekinge	Fragging logging names
+1cbde67	12/17/10 1:03 PM	Asger Askov Blekinge	Removing the log4j build.xml that is confusing the testbed
+9eda584	12/17/10 12:41 PM	Asger Askov Blekinge	Updates to the surveillance
+12d06b7	12/17/10 12:03 PM	Asger Askov Blekinge	context param name
+972a794	12/17/10 11:21 AM	Asger Askov Blekinge	Updated to new logging and surveillance
+bc87e75	12/17/10 10:57 AM	Asger Askov Blekinge	Updating libraries
+150a49b	12/17/10 10:37 AM	Asger Askov Blekinge	Copied logging libs to all services
+65057c6	10/26/10 3:04 PM	Mads Ravn	Upgraded to domsutil-0.0.11 and sbutil-0.5.2
+4eb97b8	10/20/10 1:09 PM	Mads Ravn	Upgraded from domsutil-0.07 to domsutil-0.0.10
+2c021f0	10/20/10 11:11 AM	Asger Askov Blekinge	Cutting new leaner version
+cb64ed6	10/20/10 11:09 AM	Asger Askov Blekinge	Updated build framework
+1e96c67	9/8/10 11:49 AM	Asger Askov Blekinge	Bumping the version
+6116456	9/8/10 11:37 AM	Asger Askov Blekinge	Updated build-framework to 0.0.10
+da956ef	9/8/10 11:36 AM	Asger Askov Blekinge	Upgraded domsutils to 0.0.8
+f4b77d2	4/28/10 5:36 PM	Kåre Fiedler Christiansen	PID generator surveyable that simply returns "Running"
+4043c71	4/28/10 3:47 PM	Kåre Fiedler Christiansen	Added wsdl for surveyable
+bb6c233	4/28/10 3:38 PM	Kåre Fiedler Christiansen	domsutil 0.0.6
+395ee57	4/28/10 2:19 PM	Kåre Fiedler Christiansen	Configured to user surveyable
+a064dbd	4/28/10 11:03 AM	Kåre Fiedler Christiansen	Updated domsutil to 0.0.5
+d2ae013	4/27/10 6:05 PM	Kåre Fiedler Christiansen	Update to domsutil 0.0.4
+20a30ad	4/27/10 10:10 AM	Kåre Fiedler Christiansen	Update of build framework to 1.0.9
+ba26127	4/27/10 10:06 AM	Kåre Fiedler Christiansen	Update of domsutil
+4ae6d74	3/22/10 11:55 AM	Esben Agerbaek Black	post review commit, changes in PidGeneratorSoapWebserviceImpl.java regarding fault barriers, other changes are in comments and documentation.
+7d3692c	3/8/10 2:54 PM	Esben Agerbaek Black	now including comments
+5ce857e	3/8/10 2:42 PM	Esben Agerbaek Black	Working minimal pidGenerator, new and shiy, takes infix or no param and returns uuid:UUID string
