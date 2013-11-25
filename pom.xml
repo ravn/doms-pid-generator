@@ -29,7 +29,7 @@
     <parent>
         <groupId>dk.statsbiblioteket.doms</groupId>
         <artifactId>doms</artifactId>
-        <version>0.1.5</version>
+        <version>1.0</version>
     </parent>
 
 
@@ -51,8 +51,8 @@
 
 
     <modules>
-        <module>pidgenerator_service</module>
-        <module>pidgenerator_interface</module>
+        <module>pidgenerator-service</module>
+        <module>pidgenerator-interface</module>
     </modules>
 
     <dependencyManagement>
@@ -60,7 +60,7 @@
             <dependency>
                 <groupId>dk.statsbiblioteket.doms.domsutil</groupId>
                 <artifactId>domsutil-bundle</artifactId>
-                <version>0.0.20</version>
+                <version>1.0</version>
                 <type>pom</type>
             </dependency>
             <dependency>
@@ -73,6 +73,12 @@
                 <artifactId>log4j</artifactId>
                 <version>1.2.16</version>
             </dependency>
+            <dependency>
+            	<groupId>com.sun.jersey</groupId>
+            	<artifactId>jersey-servlet</artifactId>
+            	<version>1.17.1</version>
+            </dependency>
+
 
         </dependencies>
     </dependencyManagement>
