@@ -1,3 +1,7 @@
+1.1
+Use newest sbutil, and don't use deprecated domsutil
+
+
 1.0.1
 Use 1.0 doms parent pom
 
