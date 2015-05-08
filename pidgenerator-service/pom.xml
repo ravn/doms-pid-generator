@@ -93,6 +93,10 @@
         </dependency>
         <dependency>
             <groupId>dk.statsbiblioteket.sbutil</groupId>
+            <artifactId>sbutil-common</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>dk.statsbiblioteket.sbutil</groupId>
             <artifactId>sbutil-webservices-log4j</artifactId>
         </dependency>
         <dependency>
