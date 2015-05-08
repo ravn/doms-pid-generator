@@ -29,14 +29,14 @@
     <parent>
         <groupId>dk.statsbiblioteket.doms</groupId>
         <artifactId>doms</artifactId>
-        <version>1.2-SNAPSHOT</version>
+        <version>1.2</version>
     </parent>
 
 
     <modelVersion>4.0.0</modelVersion>
     <groupId>dk.statsbiblioteket.doms.pidgenerator</groupId>
     <artifactId>pidgenerator</artifactId>
-    <version>1.0.2-SNAPSHOT</version>
+    <version>1.1</version>
     <name>Pidgenerator Project</name>
 
 
@@ -46,7 +46,8 @@
         <connection>scm:git:git://github.com/statsbiblioteket/doms-pid-generator.git</connection>
         <developerConnection>scm:git:git@github.com:statsbiblioteket/doms-pid-generator.git</developerConnection>
         <url>https://github.com/statsbiblioteket/doms-pid-generator</url>
-    </scm>
+      <tag>pidgenerator-1.1</tag>
+  </scm>
 
 
 
@@ -75,7 +76,7 @@
             <dependency>
                 <groupId>dk.statsbiblioteket.doms.domsutil.surveyable</groupId>
                 <artifactId>domsutil-logappender</artifactId>
-                <version>1.1-SNAPSHOT</version>
+                <version>1.1</version>
             </dependency>
             <dependency>
                 <groupId>com.sun.xml.ws</groupId>
