@@ -92,6 +92,11 @@
             <scope>runtime</scope>
         </dependency>
         <dependency>
+            <groupId>dk.statsbiblioteket.doms.domsutil.surveyable</groupId>
+            <artifactId>domsutil-surveyable-impl</artifactId>
+            <scope>runtime</scope>
+        </dependency>
+        <dependency>
             <groupId>dk.statsbiblioteket.sbutil</groupId>
             <artifactId>sbutil-common</artifactId>
         </dependency>
