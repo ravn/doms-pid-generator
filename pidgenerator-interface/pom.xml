@@ -31,7 +31,7 @@
 
 
     <parent>
-        <groupId>dk.statsbiblioteket.doms.pidgenerator</groupId>
+        <groupId>dk.statsbiblioteket.doms.pidgenerator.repo.https_3A_2F_2Fgithub_2Ecom_2Fravn_2Fdoms_2Dpid_2Dgenerator_2Egit</groupId>
         <artifactId>pidgenerator</artifactId>
         <version>1.0.1</version>
     </parent>

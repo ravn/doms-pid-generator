@@ -27,14 +27,15 @@
 
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <parent>
-        <groupId>dk.statsbiblioteket.doms</groupId>
+        <groupId>dk.statsbiblioteket.doms.repo.https_3A_2F_2Fgithub_2Ecom_2Fravn_2Fdoms_2Dparent_2Egit</groupId>
         <artifactId>doms</artifactId>
-        <version>1.0</version>
+<!--        <version>1.0</version> # slightly cheating -->
+        <version>1.2</version>
     </parent>
 
 
     <modelVersion>4.0.0</modelVersion>
-    <groupId>dk.statsbiblioteket.doms.pidgenerator</groupId>
+    <groupId>dk.statsbiblioteket.doms.pidgenerator.repo.https_3A_2F_2Fgithub_2Ecom_2Fravn_2Fdoms_2Dpid_2Dgenerator_2Egit</groupId>
     <artifactId>pidgenerator</artifactId>
     <version>1.0.1</version>
     <name>Pidgenerator Project</name>
@@ -58,7 +59,7 @@
     <dependencyManagement>
         <dependencies>
             <dependency>
-                <groupId>dk.statsbiblioteket.doms.domsutil</groupId>
+                <groupId>dk.statsbiblioteket.doms.domsutil.repo.https_3A_2F_2Fgithub_2Ecom_2Fravn_2Fdoms_2Dutil_2Egit</groupId>
                 <artifactId>domsutil-bundle</artifactId>
                 <version>1.0</version>
                 <type>pom</type>

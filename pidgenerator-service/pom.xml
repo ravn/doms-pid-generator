@@ -30,7 +30,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>dk.statsbiblioteket.doms.pidgenerator</groupId>
+        <groupId>dk.statsbiblioteket.doms.pidgenerator.repo.https_3A_2F_2Fgithub_2Ecom_2Fravn_2Fdoms_2Dpid_2Dgenerator_2Egit</groupId>
         <artifactId>pidgenerator</artifactId>
         <version>1.0.1</version>
     </parent>
@@ -87,7 +87,7 @@
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>dk.statsbiblioteket.doms.domsutil</groupId>
+            <groupId>dk.statsbiblioteket.doms.domsutil.repo.https_3A_2F_2Fgithub_2Ecom_2Fravn_2Fdoms_2Dutil_2Egit</groupId>
             <artifactId>domsutil-bundle</artifactId>
             <type>pom</type>
         </dependency>
